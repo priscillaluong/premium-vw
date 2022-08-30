@@ -275,10 +275,6 @@ footer > p {
         padding: 15px 0px;
     }
 
-    .highlights-col {
-        width: 100%;
-    }
-
 }
 
 @media (max-width: 767px ) {
@@ -286,12 +282,13 @@ footer > p {
         height: auto;
     }
 
-    input[type=text] {
-        margin-left: 132px;
-        width: 320px;
+    .highlights-col {
+        display: block;
+        width: 100%;
     }
 
-    input[type=email] {
+    input[type=text], input[type=email] {
+        display: block;
         width: 320px;
+        margin: 15px auto;
     }
-}
