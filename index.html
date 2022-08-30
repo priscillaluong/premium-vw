@@ -256,22 +256,22 @@
 
               <!--ENQUIRIES SECTION START-->
               <section id="contact">
-                <header>CONTACT</header>
+                <h1 class="enquiries-heading">Register your interest</h1>
+                <hr>
+                <p>With a range of car stock available across the UK, why not register with your prefered Volkswagen Retailer today.</p>
                 <form action="mailto:p-luong@live.co.uk" method="POST" enctype="multipart/form-data" name="EmailForm">
-                    <label for="fname">First Name:</label>
-                    <input type="text" id="fname" name="firstname" placeholder="First Name">
-    
-                    <label for="surname">Surname:</label>
-                    <input type="text" id="surname" name="surname" placeholder="Surname">
-    
-                    <label for="email">Email Address:</label>
-                    <input type="email" id="email" name="email" placeholder="Email Address">
-    
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" placeholder="Write your message here"></textarea>
-    
-                    <input type="send" value="Send">
-    
+                    <div class="row">
+                        <div class="col contact-col">
+                            <input type="text" id="name" name="name" placeholder="Your Name:">
+                        </div>
+                        <div class="col contact-col">
+                            <input type="text" id="telephone" name="telephone" placeholder="Your Telephone:">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="email" id="email" name="email" placeholder="Your Email Address:">
+                    </div>
+                    <button type="submit" class="btn">Submit</button>
                 </form>
             </section>
             <!--ENQUIRIES SECTION END-->
@@ -279,11 +279,10 @@
           </main>
 
         <footer>
-            <div class="row" id="social">
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-instagram"></a>
-                <a href="#" class="fa fa-linkedin"></a>
-                <i class="envelope icon"></i>
+            <div class="row justify-content-center" id="social">
+                <a href="#" class="fa fa-lg fa-twitter col-1 social-icon" style=text-decoration:none;></a>
+                <a href="#" class="fa fa-lg fa-instagram col-1 social-icon" style=text-decoration:none;></a>
+                <a href="#" class="fa fa-lg fa-linkedin col-1 social-icon" style=text-decoration:none;></a>
             </div>
             <p>&copy; Copyright 2022. Premium VW, All Rights Reserved</p>
         </footer>
